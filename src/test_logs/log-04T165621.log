@@ -1,0 +1,21 @@
+9506 [Test worker] INFO  com.ebay.fw.AppManager -- Tests star in Edge
+12885 [Test worker] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+13478 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find elementBy.xpath: (//a[.='Elektronik'])[1]
+13623 [Test worker] INFO  com.ebay.fw.MyListener -- Location of element is(224, 118)
+13741 [Test worker] INFO  com.ebay.fw.MyListener -- Before method find elementBy.cssSelector: .b-visualnav__tile:nth-child(1)
+23805 [Test worker] INFO  com.ebay.fw.MyListener -- The test has a problem
+23805 [Test worker] INFO  com.ebay.fw.MyListener -- *************************************
+23806 [Test worker] INFO  com.ebay.fw.MyListener -- Method___findElement
+23806 [Test worker] INFO  com.ebay.fw.MyListener -- *************************************
+23808 [Test worker] INFO  com.ebay.fw.MyListener -- Target exeption---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".b-visualnav__tile:nth-child(1)"}
+  (Session info: MicrosoftEdge=114.0.1823.67)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [37adaa0a1b13216f4fb685fa50a4e2fc, findElement {using=css selector, value=.b-visualnav__tile:nth-child(1)}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 114.0.1823.67, ms:edgeOptions: {debuggerAddress: localhost:56453}, msedge: {msedgedriverVersion: 114.0.1823.58 (913ab82f672f..., userDataDir: C:\Users\AITTRS~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56453/devtoo..., se:cdpVersion: 114.0.1823.67, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 37adaa0a1b13216f4fb685fa50a4e2fc
+23809 [Test worker] INFO  com.ebay.fw.MyListener -- *************************************
+23810 [Test worker] INFO  com.ebay.fw.MyListener -- Object targetEdgeDriver: msedge on windows (37adaa0a1b13216f4fb685fa50a4e2fc)
+23811 [Test worker] INFO  com.ebay.fw.MyListener -- Screen with errorsrc/test/Screenshoots/screen_1958.png

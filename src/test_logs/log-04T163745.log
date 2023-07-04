@@ -1,0 +1,27 @@
+2155 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6839 [main] INFO  com.ebay.fw.AppManager -- Tests star in Crome Browser
+10401 [main] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+11097 [main] INFO  com.ebay.tests.TestBase -- Start testsearchItemwith data: []
+11173 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.xpath: (//a[.='Elektronik'])[1]
+11404 [main] INFO  com.ebay.fw.MyListener -- Location of element is(238, 118)
+13391 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.cssSelector: .b-visualnav__tile:nth-child(1)
+13491 [main] INFO  com.ebay.fw.MyListener -- Location of element is(244, 643)
+16605 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.cssSelector: .b-visualnav__tile:nth-child(1)
+16873 [main] INFO  com.ebay.fw.MyListener -- Location of element is(244, 287)
+19686 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.cssSelector: .s-item:nth-child(2) h3
+19976 [main] INFO  com.ebay.fw.MyListener -- Location of element is(500, 2601)
+20020 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.id: gh-ac
+20182 [main] INFO  com.ebay.fw.MyListener -- Location of element is(257, 49)
+20429 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.id: gh-ac
+20570 [main] INFO  com.ebay.fw.MyListener -- Location of element is(257, 49)
+20662 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.id: gh-ac
+20722 [main] INFO  com.ebay.fw.MyListener -- Location of element is(257, 49)
+21110 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.id: gh-btn
+21185 [main] INFO  com.ebay.fw.MyListener -- Location of element is(1010, 47)
+24292 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.xpath: //ul/li/div/div[2]/a/div/span
+25226 [main] INFO  com.ebay.fw.MyListener -- Location of element is(509, 237)
+25673 [main] INFO  com.ebay.tests.TestBase -- PASSED: searchItem
+25673 [main] INFO  com.ebay.tests.TestBase -- Stop test
+25673 [main] INFO  com.ebay.tests.TestBase -- ==================================================

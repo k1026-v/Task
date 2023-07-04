@@ -1,0 +1,22 @@
+2213 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\AIT TR Student\AppData\Local\JetBrains\IdeaIC2022.2\temp-testng-customsuite.xml
+
+6895 [main] INFO  com.ebay.fw.AppManager -- Tests star in Crome Browser
+10391 [main] INFO  com.ebay.fw.AppManager -- Current url is https://www.ebay.de/
+11130 [main] INFO  com.ebay.fw.MyListener -- Before method find elementBy.xpath: (//a[.='Elektron'])[1]
+21187 [main] INFO  com.ebay.fw.MyListener -- The test has a problem
+21187 [main] INFO  com.ebay.fw.MyListener -- *************************************
+21188 [main] INFO  com.ebay.fw.MyListener -- Method___findElement
+21188 [main] INFO  com.ebay.fw.MyListener -- *************************************
+21191 [main] INFO  com.ebay.fw.MyListener -- Target exeption---->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//a[.='Elektron'])[1]"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f02b4490965de70fb9bd23e49f2e080f, findElement {using=xpath, value=(//a[.='Elektron'])[1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Users\AITTRS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56058}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56058/devtoo..., se:cdpVersion: 114.0.5735.199, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f02b4490965de70fb9bd23e49f2e080f
+21191 [main] INFO  com.ebay.fw.MyListener -- *************************************
+21191 [main] INFO  com.ebay.fw.MyListener -- Object targetChromeDriver: chrome on windows (f02b4490965de70fb9bd23e49f2e080f)
+21192 [main] INFO  com.ebay.fw.MyListener -- Screen with errorsrc/test/Screenshoots/screen_1389.png
